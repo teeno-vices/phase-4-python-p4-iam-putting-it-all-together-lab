@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from flask import request, session, jsonify
+from flask import request, session, jsonify 
 from flask_restful import Resource
 from sqlalchemy.exc import IntegrityError
 from flask_bcrypt import Bcrypt
